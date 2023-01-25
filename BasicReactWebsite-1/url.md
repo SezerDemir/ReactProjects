@@ -1,1 +1,1 @@
-[https://reactproject-1-sezer.netlify.app/](https://reactproject-1-sezer.netlify.app/){:target="_blank" rel="noopener"}
+[https://reactproject-1-sezer.netlify.app/](https://reactproject-1-sezer.netlify.app/)
