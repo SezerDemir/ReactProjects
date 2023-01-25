@@ -1,3 +1,5 @@
+
+
 .nav-container-flex{
   display: flex;
   flex-direction: row;
@@ -82,7 +84,7 @@
 
 .content-container .grid-item-img > img{
   margin-left: 8rem;
-  width: 50rem;
+  width: 40rem;
 
   filter: opacity(0.1);
   transform: rotate(45deg);
@@ -106,6 +108,118 @@
 }
 
 
+@media only screen and (max-width: 767px) {
+
+  .nav-container-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 8rem;
+    background-color: rgb(32, 31, 31);
+  
+    font-family: Inter;
+    font-weight: 400;
+  }
+  
+  .nav-container-flex .item{
+    margin-right: 1rem;
+    margin: 0.75rem;
+    padding: 1rem;
+  }
+  
+  .nav-container-flex .item .inner-flex-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 6rem;
+    width: 7rem;
+  }
+  
+  .nav-container-flex .item .inner-flex-logo > img{
+    width:5rem;
+  }
+  
+  .nav-container-flex .item .inner-flex-logo > h1{
+    color: rgb(83, 193, 222);
+    font-weight: 900;
+    font-size: 1rem;
+  }
+  
+  .nav-container-flex .item:nth-child(2) > h1{
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  .content-container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: rgb(36, 38, 46);
+  }
+  
+  .content-container .grid-item-flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 30rem;
+  
+    font-family: Inter;
+    font-weight: 400;
+  }
+  
+  .content-container .grid-item-flex .item:nth-child(1){
+    color: white;
+    margin: 3rem 0 0 1rem;
+    font-weight: 600;
+    font-size: 0.5rem;
+  }
+  
+  .content-container .grid-item-flex .item:nth-child(2) {
+    color: white;
+    margin: 1rem 0 0 0;
+    padding: 0 0 0 3rem;
+  }
+  
+  .content-container .grid-item-flex .item:nth-child(2) > ul > li{
+    margin: 0 0 0.5rem 0;
+    color: white;
+    font-weight: 600;
+    font-size: 0.7rem;
+    text-align: justify;
+  }
+  
+  .content-container .grid-item-flex .item:nth-child(2) > ul > li::marker{
+    color: rgb(83, 193, 222)
+  }
+  
+  .content-container .grid-item-img > img{
+    margin: 8rem 0 0 0rem;
+    width: 15rem;
+  
+    filter: opacity(0.1);
+    transform: rotate(45deg);
+  
+  }
+  
+  .footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 2rem;
+    background-color: rgb(23, 23, 23);
+  
+    font-family: Inter;
+    font-weight: 400;
+  }
+  
+  .footer-container > span{
+    color: grey;
+    margin-left: 1em;
+  }
+}
 
 
 
