@@ -72,14 +72,13 @@
 
 .content-container .grid-item-flex .item:nth-child(2) > ul > li{
   margin-bottom: 1em;
-  color: rgb(83, 193, 222)
-}
-
-.content-container .grid-item-flex .item:nth-child(2) > ul > li > span{
   color: white;
   font-weight: 600;
 }
 
+.content-container .grid-item-flex .item:nth-child(2) > ul > li::marker{
+  color: rgb(83, 193, 222)
+}
 
 .content-container .grid-item-img > img{
   margin-left: 8rem;
