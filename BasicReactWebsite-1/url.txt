@@ -1,2 +1,0 @@
-url:
-	https://reactproject-1-sezer.netlify.app/
